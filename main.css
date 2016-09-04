@@ -1,0 +1,35 @@
+/*20/ In css file we have just general stuff now */
+body {
+	background: #f5f5f5;
+}
+
+a {
+	color: #0088cc;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #005580;
+	text-decoration: underline;
+}
+
+img {
+	vertical-align: middle;
+}
+
+
+/*14/ And we add some custom element style to display our gallery components  */
+.content {
+	width: 800px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.component {
+	margin: 15px 0 0;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+}
