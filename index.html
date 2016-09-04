@@ -8,24 +8,28 @@
     </head>
     <body>
         <div class="content">
-             <!--8/ We have all galleries in one section -->
-            <section>
+             
+             <section>
                 <h1>Galleries</h1>
-                <!-- We have a gallery component -->
                 <div data-tag="html" class="gallery component">
-                    <!--3/ With header -->
                     <div class="gallery-header">
                         <h1 class="gallery-title">html</h1>
                     </div>
-                    <!--5/ And unordered list of images -->
                     <ul>
                         <li>
                             <img src="">
                         </li>
                     </ul>
                 </div>
-
             </section>
+
+            <!-- Now let's add a new component for a form -->
+            <form class="form component">
+                <!-- We will get new gallery name from user -->
+                <input type="text" name="tag" placeholder="Tag"></input>
+                <!-- And we need a button to submit this form -->
+                <button>Add</button>
+            </form>
 
         </div>
     </body>
